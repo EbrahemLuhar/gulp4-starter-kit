@@ -1,1 +1,0 @@
-{"version":3,"sources":["app.js","script.js"],"names":["hello","console","log"],"mappings":"AAAA,aCAA,IAAMA,MAAQ,WACZC,QAAQC,IAAI,SACZD,QAAQC,IAAI,UAGdF","file":"app.js","sourcesContent":[null,"const hello = () => {\r\n  console.log('hello');\r\n  console.log('world')\r\n}\r\n\r\nhello();\r\n"]}

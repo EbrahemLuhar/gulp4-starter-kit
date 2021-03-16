@@ -67,6 +67,8 @@ function browserSyncReload(cb) {
 function taskWatch() {
   watch(htmlPath, browserSyncReload);
   watch([cssPath, jsPath], { interval : 500}, parallel(taskStyles, taskScripts, browserSyncReload));
+  watch(htmlPath, taskHtml);
+
 }
 
 exports.taskHtml = taskHtml;
